@@ -1,0 +1,85 @@
+.quiz-app-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 200px 100px;  
+  height: 100%;
+}
+
+body {
+  background-color: rgba(30,35,58,1);
+}
+
+.quiz-app-question-answer-section {
+  display:flex;
+  flex-direction: column;
+  gap:50px;
+}
+
+.quiz-app-option-section {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:20px;
+}
+
+.quiz-app-option-button {
+  width: 45%;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #DB850E;
+  color: #FFF;
+  border: 1px solid #DB850E;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.quiz-app-question-number{
+  margin-right: 10px;
+}
+
+.quiz-app-question-text, .quiz-welcome-msg {
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.quiz-app-score{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  color:#DB850E;
+}
+
+.quiz-thank-you-text{
+  font-size: 28px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.quiz-score-text{
+  font-size: 40px;
+  font-weight: 700;
+  margin:0;
+}
+.welcome-container {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 220px 100px;
+}
+
+.welcome-btn {
+  color:#FFF;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #DB850E;
+  padding: 10px 15px;
+  border-radius: 7px;
+  border:1px solid #DB850E;
+  cursor: pointer;
+}
